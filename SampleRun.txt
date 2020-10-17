@@ -1,0 +1,74 @@
+
+root@machinexxx:/home/mahesh/Publisher-Subscriber# ./Publisher-Subscriber
+====================================================
+                 Component Prices
+====================================================
+u)pdate/load single component info
+r)eload/load all components
+q)uit
+====================================================
+Enter your choice: r
+
+Enter parent directory path of component files: /home/mahesh/Publisher-Subscriber/componentInfo/
+Publisher notifying all subscribers
+=====================================
+             Bar Chart
+=====================================
+Battery: 1850
+Door: 500
+Lamp: 2549
+Tyre: 270
+--------------------------------------------------
+=====================================
+             Pie Chart
+=====================================
+Battery: 1850
+Door: 500
+Lamp: 2549
+Tyre: 270
+--------------------------------------------------
+====================================================
+                 Component Prices
+====================================================
+u)pdate/load single component info
+r)eload/load all components
+q)uit
+====================================================
+Enter your choice: u
+<<<<<<<<<<Update costs of Lamp (or any other component) in component file from another console and provide it as input below>>>>>>>>>>>>>>>>>>>>>>>>>
+Enter component name to update: Lamp
+Publisher notifying all subscribers
+=====================================
+             Bar Chart
+=====================================
+Battery: 1850
+Door: 500
+Lamp: 3049
+Tyre: 270
+--------------------------------------------------
+=====================================
+             Pie Chart
+=====================================
+Battery: 1850
+Door: 500
+Lamp: 3049
+Tyre: 270
+--------------------------------------------------
+=====================================
+             Line Chart
+=====================================
+Battery: 1850
+Door: 500
+Lamp: 3049
+Tyre: 270
+--------------------------------------------------
+====================================================
+                 Component Prices
+====================================================
+u)pdate/load single component info
+r)eload/load all components
+q)uit
+====================================================
+Enter your choice: q
+
+Exiting...
